@@ -1,0 +1,36 @@
+{
+  "name": "gulp-starter-app",
+  "version": "1.0.0",
+  "description": "Simple gulp starter app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "scage13",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babelify": "^8.0.0",
+    "browser-sync": "^2.26.7",
+    "browserify": "^16.5.1",
+    "fancy-log": "^1.3.3",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "node-normalize-scss": "^8.0.1",
+    "node-sass": "^4.13.1",
+    "tsify": "^4.0.1",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "dependencies": {
+    "gulp-pug": "^4.0.1",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "typescript": "^3.8.3"
+  }
+}
